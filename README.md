@@ -37,3 +37,5 @@ $$
 = \sum_{i=1}^{n} \left( \cfrac{population\ density_i}{\sum population\ density_i} \times 3G\ coverage_i \right)
 $$
 
+## Reference
+Guriev, Sergei, Nikita Melnikov, and Ekaterina Zhuravskaya. "3g internet and confidence in government." The Quarterly Journal of Economics 136.4 (2021): 2533-2613.
