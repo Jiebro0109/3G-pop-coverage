@@ -4,14 +4,14 @@ This is a replication of the 3G network covered population rate calculation foll
 
 ## Calculation Method
 
-### Compute Population Weight Raster
+### 1 Compute Population Weight Raster
 - For region m, the proportion (weight) of the population in the i-th grid cell relative to the total population of the region is calculated as follows:
 
 $$
 population\ weight_i = \cfrac{number\ of\ people_i}{\sum number\ of\ people_i} = \cfrac{population\ density_i \times 1km^2}{\sum (population\ density_i \times 1km^2)}
 $$
 
-### Compute Population-Weighted 3G Coverage Raster
+### 2 Compute Population-Weighted 3G Coverage Raster
 - Compute the population-weighted 3G coverage:
 
 $$
@@ -26,7 +26,7 @@ $$
 = \cfrac{population\ density_i}{\sum population\ density_i} \times 3G\ coverage_i
 $$
 
-### Compute the 3G-Covered Population Proportion within a Region
+### 3 Compute the 3G-Covered Population Proportion within a Region
 - Finally, sum all grids within a region to obtain the proportion of the population covered by 3G:
 
 $$
